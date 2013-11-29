@@ -24,6 +24,10 @@
 		F2162D941844403D00E7C83D /* iOSChatRoomClientDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2162D931844403D00E7C83D /* iOSChatRoomClientDemoTests.m */; };
 		F2162DA018444E9E00E7C83D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2162D9F18444E9E00E7C83D /* MainViewController.m */; };
 		F2162DA318444FAA00E7C83D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2162DA218444FAA00E7C83D /* LoginViewController.m */; };
+		F2162DA6184474D000E7C83D /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2162DA5184474D000E7C83D /* BasicViewController.m */; };
+		F287263E184729000081B78B /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F287263D184729000081B78B /* MessageViewController.m */; };
+		F28726411847292E0081B78B /* ConcatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28726401847292E0081B78B /* ConcatsViewController.m */; };
+		F2872644184729580081B78B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2872643184729580081B78B /* SettingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,14 @@
 		F2162D9F18444E9E00E7C83D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F2162DA118444FAA00E7C83D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F2162DA218444FAA00E7C83D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F2162DA4184474D000E7C83D /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		F2162DA5184474D000E7C83D /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		F287263C184729000081B78B /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F287263D184729000081B78B /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F287263F1847292E0081B78B /* ConcatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcatsViewController.h; sourceTree = "<group>"; };
+		F28726401847292E0081B78B /* ConcatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatsViewController.m; sourceTree = "<group>"; };
+		F2872642184729580081B78B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		F2872643184729580081B78B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20582DB1848282B0059ED96 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		F2162D591844403B00E7C83D = {
 			isa = PBXGroup;
 			children = (
+				F20582DB1848282B0059ED96 /* views */,
 				F2162D9D18444E6E00E7C83D /* controllers */,
 				F2162D6B1844403C00E7C83D /* iOSChatRoomClientDemo */,
 				F2162D8D1844403D00E7C83D /* iOSChatRoomClientDemoTests */,
@@ -169,6 +189,14 @@
 				F2162D9F18444E9E00E7C83D /* MainViewController.m */,
 				F2162DA118444FAA00E7C83D /* LoginViewController.h */,
 				F2162DA218444FAA00E7C83D /* LoginViewController.m */,
+				F2162DA4184474D000E7C83D /* BasicViewController.h */,
+				F2162DA5184474D000E7C83D /* BasicViewController.m */,
+				F287263C184729000081B78B /* MessageViewController.h */,
+				F287263D184729000081B78B /* MessageViewController.m */,
+				F287263F1847292E0081B78B /* ConcatsViewController.h */,
+				F28726401847292E0081B78B /* ConcatsViewController.m */,
+				F2872642184729580081B78B /* SettingViewController.h */,
+				F2872643184729580081B78B /* SettingViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -275,7 +303,11 @@
 				F2162D761844403D00E7C83D /* AppDelegate.m in Sources */,
 				F2162D721844403C00E7C83D /* main.m in Sources */,
 				F2162DA018444E9E00E7C83D /* MainViewController.m in Sources */,
+				F28726411847292E0081B78B /* ConcatsViewController.m in Sources */,
+				F2872644184729580081B78B /* SettingViewController.m in Sources */,
 				F2162DA318444FAA00E7C83D /* LoginViewController.m in Sources */,
+				F2162DA6184474D000E7C83D /* BasicViewController.m in Sources */,
+				F287263E184729000081B78B /* MessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +526,7 @@
 				F2162D991844403D00E7C83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2162D9A1844403D00E7C83D /* Build configuration list for PBXNativeTarget "iOSChatRoomClientDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +535,7 @@
 				F2162D9C1844403D00E7C83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
