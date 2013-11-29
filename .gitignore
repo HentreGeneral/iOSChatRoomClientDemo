@@ -1,4 +1,3 @@
-.xuserstate
-.ignore
-iOSChatRoomClientDemo.xcodeproj/project.xcworkspace/xcuserdata/hadoop.xcuserdatad/UserInterfaceState.xcuserstate
-*.xcuserstate
+.DS_Store
+.xcuserstate
+
