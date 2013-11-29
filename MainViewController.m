@@ -14,6 +14,8 @@
 
 @implementation MainViewController
 @synthesize name,pwd;
+@synthesize lblUsername;
+@synthesize txtInput;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,9 +30,41 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    NSLog(@"name = %@,pwd = %@",self.name,self.pwd);
+    [self initDefaults];
+    [self initUI];
 }
-
+- (void)initDefaults{
+    
+}
+- (void)initUI{
+    lblUsername.text = self.name;
+    [self registerTapToFirstResponder];
+    
+    txtInput.returnKeyType = UIReturnKeySend;
+    txtInput.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    txtInput.delegate = self;
+    NSLog(@"textview frame = %@",NSStringFromCGRect(txtInput.frame));
+    
+}
+- (void)textViewDidBeginEditing:(UITextView *)textView{
+    [UIView animateWithDuration:0.3f animations:^{
+        self.view.center = CGPointMake(self.view.center.x,self.view.center.y-199);
+    } completion:nil];
+}
+- (void)textViewDidEndEditing:(UITextView *)textView{
+    [UIView animateWithDuration:0.3 animations:^{
+        self.view.center = CGPointMake(self.view.center.x,self.view.center.y+199);
+    } completion:^(BOOL finished) {
+        
+    }];
+}
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    if (range.length !=1&&[@"\n" isEqualToString:text]) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    return YES;
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

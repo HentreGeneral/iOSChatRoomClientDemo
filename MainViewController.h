@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BasicViewController.h"
 
-@interface MainViewController : UIViewController
+@interface MainViewController : BasicViewController<UITextViewDelegate>
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *pwd;
+@property (weak, nonatomic) IBOutlet UILabel *lblUsername;
+@property (weak, nonatomic) IBOutlet UITextView *txtInput;
 @end

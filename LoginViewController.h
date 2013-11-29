@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BasicViewController.h"
 
-@interface LoginViewController : UIViewController
+@interface LoginViewController : BasicViewController<UITextFieldDelegate>
 
+@property (weak, nonatomic) IBOutlet UIButton *btnLogin;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtUsername;
+
+@property (weak, nonatomic) IBOutlet UITextField *txtPassword;
 @end
