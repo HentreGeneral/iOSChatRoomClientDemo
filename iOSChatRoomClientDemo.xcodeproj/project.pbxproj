@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20582E918487F0F0059ED96 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20582E818487F0F0059ED96 /* AlertView.m */; };
 		F2162D661844403C00E7C83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D651844403C00E7C83D /* Foundation.framework */; };
 		F2162D681844403C00E7C83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D671844403C00E7C83D /* CoreGraphics.framework */; };
 		F2162D6A1844403C00E7C83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D691844403C00E7C83D /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20582E718487F0F0059ED96 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		F20582E818487F0F0059ED96 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		F2162D621844403C00E7C83D /* iOSChatRoomClientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChatRoomClientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2162D651844403C00E7C83D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2162D671844403C00E7C83D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,9 +109,27 @@
 			name = views;
 			sourceTree = "<group>";
 		};
+		F20582E518487EBD0059ED96 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F20582E618487ECA0059ED96 /* ui */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		F20582E618487ECA0059ED96 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				F20582E718487F0F0059ED96 /* AlertView.h */,
+				F20582E818487F0F0059ED96 /* AlertView.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
 		F2162D591844403B00E7C83D = {
 			isa = PBXGroup;
 			children = (
+				F20582E518487EBD0059ED96 /* utils */,
 				F20582DB1848282B0059ED96 /* views */,
 				F2162D9D18444E6E00E7C83D /* controllers */,
 				F2162D6B1844403C00E7C83D /* iOSChatRoomClientDemo */,
@@ -304,6 +325,7 @@
 				F2162D721844403C00E7C83D /* main.m in Sources */,
 				F2162DA018444E9E00E7C83D /* MainViewController.m in Sources */,
 				F28726411847292E0081B78B /* ConcatsViewController.m in Sources */,
+				F20582E918487F0F0059ED96 /* AlertView.m in Sources */,
 				F2872644184729580081B78B /* SettingViewController.m in Sources */,
 				F2162DA318444FAA00E7C83D /* LoginViewController.m in Sources */,
 				F2162DA6184474D000E7C83D /* BasicViewController.m in Sources */,
