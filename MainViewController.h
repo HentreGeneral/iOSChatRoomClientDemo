@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "BasicViewController.h"
 
-@interface MainViewController : BasicViewController<UITextViewDelegate>
+@interface MainViewController : UITabBarController <UITextViewDelegate>
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *pwd;
 @property (weak, nonatomic) IBOutlet UILabel *lblUsername;

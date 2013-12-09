@@ -5,7 +5,11 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>6E804D2D-CABF-4E11-A274-872E725B6F33</string>
+=======
 	<string>12906891-C2E2-4FCB-B3D6-8F5FF2368FCD</string>
+>>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 	<key>IDESourceControlProjectName</key>
 	<string>iOSChatRoomClientDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
