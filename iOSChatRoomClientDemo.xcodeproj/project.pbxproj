@@ -45,11 +45,6 @@
 		F2B1F160184EBCA5001E4B73 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F15F184EBCA5001E4B73 /* MessageViewController.m */; };
 		F2B1F163184EBD9C001E4B73 /* ConcatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F162184EBD9C001E4B73 /* ConcatsViewController.m */; };
 		F2B1F166184EBDD3001E4B73 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F165184EBDD3001E4B73 /* HistoryViewController.m */; };
-=======
-		F287263E184729000081B78B /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F287263D184729000081B78B /* MessageViewController.m */; };
-		F28726411847292E0081B78B /* ConcatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28726401847292E0081B78B /* ConcatsViewController.m */; };
-		F2872644184729580081B78B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2872643184729580081B78B /* SettingViewController.m */; };
->>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,14 +124,6 @@
 		F2B1F162184EBD9C001E4B73 /* ConcatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatsViewController.m; sourceTree = "<group>"; };
 		F2B1F164184EBDD3001E4B73 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		F2B1F165184EBDD3001E4B73 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
-=======
-		F287263C184729000081B78B /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		F287263D184729000081B78B /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
-		F287263F1847292E0081B78B /* ConcatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcatsViewController.h; sourceTree = "<group>"; };
-		F28726401847292E0081B78B /* ConcatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatsViewController.m; sourceTree = "<group>"; };
-		F2872642184729580081B78B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		F2872643184729580081B78B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
->>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				F20582E518487EBD0059ED96 /* utils */,
->>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 				F20582DB1848282B0059ED96 /* views */,
 				F2162D9D18444E6E00E7C83D /* controllers */,
 				F2162D6B1844403C00E7C83D /* iOSChatRoomClientDemo */,
@@ -488,7 +474,6 @@
 				F2162DA318444FAA00E7C83D /* LoginViewController.m in Sources */,
 				F2162DA6184474D000E7C83D /* BasicViewController.m in Sources */,
 				F287263E184729000081B78B /* MessageViewController.m in Sources */,
->>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
