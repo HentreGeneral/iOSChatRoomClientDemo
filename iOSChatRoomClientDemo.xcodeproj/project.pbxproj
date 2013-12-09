@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20582E918487F0F0059ED96 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20582E818487F0F0059ED96 /* AlertView.m */; };
 		F2162D661844403C00E7C83D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D651844403C00E7C83D /* Foundation.framework */; };
 		F2162D681844403C00E7C83D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D671844403C00E7C83D /* CoreGraphics.framework */; };
 		F2162D6A1844403C00E7C83D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2162D691844403C00E7C83D /* UIKit.framework */; };
@@ -44,6 +45,11 @@
 		F2B1F160184EBCA5001E4B73 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F15F184EBCA5001E4B73 /* MessageViewController.m */; };
 		F2B1F163184EBD9C001E4B73 /* ConcatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F162184EBD9C001E4B73 /* ConcatsViewController.m */; };
 		F2B1F166184EBDD3001E4B73 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B1F165184EBDD3001E4B73 /* HistoryViewController.m */; };
+=======
+		F287263E184729000081B78B /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F287263D184729000081B78B /* MessageViewController.m */; };
+		F28726411847292E0081B78B /* ConcatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F28726401847292E0081B78B /* ConcatsViewController.m */; };
+		F2872644184729580081B78B /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2872643184729580081B78B /* SettingViewController.m */; };
+>>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20582E718487F0F0059ED96 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		F20582E818487F0F0059ED96 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
 		F2162D621844403C00E7C83D /* iOSChatRoomClientDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSChatRoomClientDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2162D651844403C00E7C83D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2162D671844403C00E7C83D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +129,14 @@
 		F2B1F162184EBD9C001E4B73 /* ConcatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatsViewController.m; sourceTree = "<group>"; };
 		F2B1F164184EBDD3001E4B73 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		F2B1F165184EBDD3001E4B73 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+=======
+		F287263C184729000081B78B /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F287263D184729000081B78B /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F287263F1847292E0081B78B /* ConcatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcatsViewController.h; sourceTree = "<group>"; };
+		F28726401847292E0081B78B /* ConcatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcatsViewController.m; sourceTree = "<group>"; };
+		F2872642184729580081B78B /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		F2872643184729580081B78B /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+>>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +178,28 @@
 				F21C641E1855ECF400F9D5DE /* components */,
 				F21C641D1855ECE600F9D5DE /* utils */,
 				F21C641C1855ECDA00F9D5DE /* services */,
+		F20582E518487EBD0059ED96 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F20582E618487ECA0059ED96 /* ui */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		F20582E618487ECA0059ED96 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				F20582E718487F0F0059ED96 /* AlertView.h */,
+				F20582E818487F0F0059ED96 /* AlertView.m */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		F2162D591844403B00E7C83D = {
+			isa = PBXGroup;
+			children = (
+				F20582E518487EBD0059ED96 /* utils */,
+>>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 				F20582DB1848282B0059ED96 /* views */,
 				F2162D9D18444E6E00E7C83D /* controllers */,
 				F2162D6B1844403C00E7C83D /* iOSChatRoomClientDemo */,
@@ -244,12 +282,12 @@
 				F2162DA218444FAA00E7C83D /* LoginViewController.m */,
 				F2162DA4184474D000E7C83D /* BasicViewController.h */,
 				F2162DA5184474D000E7C83D /* BasicViewController.m */,
-				F2B1F15E184EBCA5001E4B73 /* MessageViewController.h */,
-				F2B1F15F184EBCA5001E4B73 /* MessageViewController.m */,
-				F2B1F161184EBD9C001E4B73 /* ConcatsViewController.h */,
-				F2B1F162184EBD9C001E4B73 /* ConcatsViewController.m */,
-				F2B1F164184EBDD3001E4B73 /* HistoryViewController.h */,
-				F2B1F165184EBDD3001E4B73 /* HistoryViewController.m */,
+				F287263C184729000081B78B /* MessageViewController.h */,
+				F287263D184729000081B78B /* MessageViewController.m */,
+				F287263F1847292E0081B78B /* ConcatsViewController.h */,
+				F28726401847292E0081B78B /* ConcatsViewController.m */,
+				F2872642184729580081B78B /* SettingViewController.h */,
+				F2872643184729580081B78B /* SettingViewController.m */,
 			);
 			name = controllers;
 			sourceTree = "<group>";
@@ -444,6 +482,13 @@
 				F21C64431855F09700F9D5DE /* NSMutableArray-MultipleSort.m in Sources */,
 				F21C644F1855F09700F9D5DE /* UIColor-SQLitePersistentObject.m in Sources */,
 				F21C64471855F09700F9D5DE /* NSObject-MissingKV.m in Sources */,
+				F28726411847292E0081B78B /* ConcatsViewController.m in Sources */,
+				F20582E918487F0F0059ED96 /* AlertView.m in Sources */,
+				F2872644184729580081B78B /* SettingViewController.m in Sources */,
+				F2162DA318444FAA00E7C83D /* LoginViewController.m in Sources */,
+				F2162DA6184474D000E7C83D /* BasicViewController.m in Sources */,
+				F287263E184729000081B78B /* MessageViewController.m in Sources */,
+>>>>>>> 6cc7f663fa0e9a0034de23f2bbe1bd4fda9b9c68
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
