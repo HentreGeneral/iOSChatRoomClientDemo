@@ -2,7 +2,7 @@
 //  MessageViewController.m
 //  iOSChatRoomClientDemo
 //
-//  Created by hadoop user account on 28/11/2013.
+//  Created by hadoop user account on 4/12/2013.
 //  Copyright (c) 2013 General. All rights reserved.
 //
 

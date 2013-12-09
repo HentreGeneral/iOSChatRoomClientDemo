@@ -1,18 +1,18 @@
 //
-//  SettingViewController.m
+//  HistoryViewController.m
 //  iOSChatRoomClientDemo
 //
-//  Created by hadoop user account on 28/11/2013.
+//  Created by hadoop user account on 4/12/2013.
 //  Copyright (c) 2013 General. All rights reserved.
 //
 
-#import "SettingViewController.h"
+#import "HistoryViewController.h"
 
-@interface SettingViewController ()
+@interface HistoryViewController ()
 
 @end
 
-@implementation SettingViewController
+@implementation HistoryViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

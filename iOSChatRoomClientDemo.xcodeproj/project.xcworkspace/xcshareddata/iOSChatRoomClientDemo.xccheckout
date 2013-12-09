@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E804D2D-CABF-4E11-A274-872E725B6F33</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSChatRoomClientDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>439E11DD-34EA-4520-AC0D-3691AD66C616</key>
+		<string>https://github.com/HentreGeneral/iOSChatRoomClientDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSChatRoomClientDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>439E11DD-34EA-4520-AC0D-3691AD66C616</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HentreGeneral/iOSChatRoomClientDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>439E11DD-34EA-4520-AC0D-3691AD66C616</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>439E11DD-34EA-4520-AC0D-3691AD66C616</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSChatRoomClientDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

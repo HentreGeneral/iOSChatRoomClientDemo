@@ -38,7 +38,7 @@
 }
 - (void)initUI{
     lblUsername.text = self.name;
-    [self registerTapToFirstResponder];
+//    [self registerTapToFirstResponder];
     
     txtInput.returnKeyType = UIReturnKeySend;
     txtInput.autoresizingMask = UIViewAutoresizingFlexibleHeight;
